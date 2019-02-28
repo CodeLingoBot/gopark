@@ -155,7 +155,7 @@ func biVectorsOp(v1, v2 Vector, fn operand) Vector {
     return result
 }
 
-// IndexedVector methods
+// NewIndexedVector methods
 func NewIndexedVector() IndexedVector {
     return make(IndexedVector)
 }
